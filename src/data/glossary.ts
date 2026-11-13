@@ -55,7 +55,7 @@ export const METRIC_TOOLTIPS: Record<string, string> = {
   score:
     'Blended 0–100 pressure performer rating combining high-leverage ridge skill and overall skill.',
   pressEffect:
-    'Context-adjusted Runs Above Expected per pressure ball (batters: positive is better; bowlers: runs saved per ball, positive is better).',
+    'Context-adjusted Runs Above Expected per 100 pressure balls (batters: positive is better; bowlers: runs saved per ball, positive is better).',
   overallEffect:
     'Context-adjusted Runs Above Expected across all balls faced or bowled, used to stabilise noisy pressure samples.',
   pTop10:
