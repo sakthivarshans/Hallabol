@@ -134,6 +134,7 @@ export interface BenchmarkRow {
 
 export interface BenchmarksData {
   status?: string;
+  summary?: string;
   rows: BenchmarkRow[];
 }
 
