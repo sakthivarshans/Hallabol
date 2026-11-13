@@ -202,7 +202,7 @@ export default function DashboardPage() {
                     RR Needs at a Glance
                   </h2>
                   <p className="mt-1 text-xs text-slate-500 dark:text-slate-300">
-                    Rajasthan Royals vs League average pressure Runs Above Expected (RAE) by match phase.
+                    Rajasthan Royals vs League average pressure Runs Above Expected (RAE) per 100 balls by match phase (IPL 2025–26; bowling = runs saved).
                   </p>
                 </div>
                 {deathRow && (
