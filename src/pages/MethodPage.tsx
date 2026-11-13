@@ -421,6 +421,11 @@ export default function MethodPage() {
                   <p className="mt-1 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
                     Held-out correlation benchmarks from <code className="font-mono-num">benchmarks.json</code>.
                   </p>
+                  {data.benchmarks.summary && (
+                    <p className="mt-3 max-w-3xl rounded-xl border border-[#EA1A85]/30 bg-[#FFE3F1]/50 dark:bg-[#EA1A85]/10 p-3 text-xs sm:text-sm leading-relaxed text-slate-700 dark:text-slate-200">
+                      {data.benchmarks.summary}
+                    </p>
+                  )}
                 </div>
                 {isPrelim && (
                   <span className="rounded-lg border border-amber-400/50 bg-amber-100 dark:bg-amber-500/20 px-3 py-1 text-xs font-semibold text-amber-800 dark:text-amber-300">
