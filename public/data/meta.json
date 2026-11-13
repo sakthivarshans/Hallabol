@@ -1,0 +1,16 @@
+{
+  "status": "DEMO",
+  "modelVersion": "v2.4-ridge-wp",
+  "generatedAt": "2026-03-15T09:30:00Z",
+  "matches": 642,
+  "balls": 148320,
+  "pressureBalls": 44496,
+  "playersRated": 318,
+  "wicketCostRuns": 6.4,
+  "leverageCutoffPct": 30,
+  "blendWeights": {
+    "bat": [0.62, 0.38],
+    "bowl": [0.58, 0.42]
+  },
+  "period": "2022–2026 (IPL & Eligible T20Is)"
+}

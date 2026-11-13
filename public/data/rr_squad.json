@@ -1,0 +1,123 @@
+[
+  {
+    "status": "DEMO",
+    "slug": "yashasvi-jaiswal",
+    "name": "Yashasvi Jaiswal",
+    "role": "Batter",
+    "pressureBalls": 488,
+    "batValue": 1.19,
+    "bowlValue": null,
+    "phaseShare": { "PP": 68, "Mid": 26, "Death": 6 },
+    "notes": "Elite powerplay pressure striker (+1.19 RAE/ball); minimal exposure in overs 16–20."
+  },
+  {
+    "status": "DEMO",
+    "slug": "sanju-samson",
+    "name": "Sanju Samson",
+    "role": "Batter",
+    "pressureBalls": 512,
+    "batValue": 1.12,
+    "bowlValue": null,
+    "phaseShare": { "PP": 38, "Mid": 51, "Death": 11 },
+    "notes": "Strong top-3 anchor and spin accelerator; peak leverage in overs 5–14."
+  },
+  {
+    "status": "DEMO",
+    "slug": "riyan-parag",
+    "name": "Riyan Parag",
+    "role": "All-Rounder",
+    "pressureBalls": 442,
+    "batValue": 0.94,
+    "bowlValue": 0.14,
+    "phaseShare": { "PP": 10, "Mid": 62, "Death": 28 },
+    "notes": "Sharp middle-over growth in 2024–25; positive spin match-up value at #4."
+  },
+  {
+    "status": "DEMO",
+    "slug": "dhruv-jurel",
+    "name": "Dhruv Jurel",
+    "role": "Batter",
+    "pressureBalls": 296,
+    "batValue": 0.42,
+    "bowlValue": null,
+    "phaseShare": { "PP": 2, "Mid": 38, "Death": 60 },
+    "notes": "Composed vs hard lengths, but lower boundary rate under steep 12+ RPO death chases."
+  },
+  {
+    "status": "DEMO",
+    "slug": "shimron-hetmyer",
+    "name": "Shimron Hetmyer",
+    "role": "Batter",
+    "pressureBalls": 364,
+    "batValue": 0.58,
+    "bowlValue": null,
+    "phaseShare": { "PP": 0, "Mid": 28, "Death": 72 },
+    "notes": "Carries heavy death-finishing load alone; high variance without a second elite finisher."
+  },
+  {
+    "status": "DEMO",
+    "slug": "nitish-rana",
+    "name": "Nitish Rana",
+    "role": "Batter",
+    "pressureBalls": 348,
+    "batValue": 0.46,
+    "bowlValue": 0.08,
+    "phaseShare": { "PP": 18, "Mid": 66, "Death": 16 },
+    "notes": "Useful left-handed middle-over bridge; modest pressure uplift against high pace."
+  },
+  {
+    "status": "DEMO",
+    "slug": "jofra-archer",
+    "name": "Jofra Archer",
+    "role": "Bowler",
+    "pressureBalls": 382,
+    "batValue": -0.18,
+    "bowlValue": 0.88,
+    "phaseShare": { "PP": 48, "Mid": 16, "Death": 36 },
+    "notes": "High-impact powerplay strike bowler; needs death-over workload sharing."
+  },
+  {
+    "status": "DEMO",
+    "slug": "sandeep-sharma",
+    "name": "Sandeep Sharma",
+    "role": "Bowler",
+    "pressureBalls": 412,
+    "batValue": null,
+    "bowlValue": 0.74,
+    "phaseShare": { "PP": 46, "Mid": 12, "Death": 42 },
+    "notes": "Reliable swing & yorker execution, though speed ceiling gets tested on flat decks."
+  },
+  {
+    "status": "DEMO",
+    "slug": "wanindu-hasaranga",
+    "name": "Wanindu Hasaranga",
+    "role": "All-Rounder",
+    "pressureBalls": 396,
+    "batValue": 0.12,
+    "bowlValue": 0.82,
+    "phaseShare": { "PP": 6, "Mid": 78, "Death": 16 },
+    "notes": "Wicket-taking wrist spin in overs 7–15; rarely deployed inside the final three overs."
+  },
+  {
+    "status": "DEMO",
+    "slug": "maheesh-theekshana",
+    "name": "Maheesh Theekshana",
+    "role": "Bowler",
+    "pressureBalls": 404,
+    "batValue": null,
+    "bowlValue": 0.69,
+    "phaseShare": { "PP": 44, "Mid": 46, "Death": 10 },
+    "notes": "Powerplay carrom-ball control; primarily used before over 15."
+  },
+  {
+    "status": "DEMO",
+    "slug": "tushar-deshpande",
+    "name": "Tushar Deshpande",
+    "role": "Bowler",
+    "pressureBalls": 318,
+    "batValue": null,
+    "bowlValue": -0.24,
+    "phaseShare": { "PP": 36, "Mid": 16, "Death": 48 },
+    "notes": "Takes wickets in bursts but leaks high boundary counts in overs 17–20."
+  }
+]

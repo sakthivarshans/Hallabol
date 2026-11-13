@@ -1,0 +1,53 @@
+{
+  "status": "DEMO - preliminary",
+  "rows": [
+    {
+      "method": "Raw Strike Rate / Economy",
+      "role": "Batter",
+      "heldOutCorrelation": 0.214,
+      "notes": "Ignores match leverage, wicket cost, and opposition bowling quality."
+    },
+    {
+      "method": "Raw Win Probability Added (WPA)",
+      "role": "Batter",
+      "heldOutCorrelation": 0.289,
+      "notes": "High variance on small samples; over-rewards single lucky boundary swings."
+    },
+    {
+      "method": "Simple Bayesian Average",
+      "role": "Batter",
+      "heldOutCorrelation": 0.356,
+      "notes": "Shrinks small samples toward league mean but omits joint opponent adjustment."
+    },
+    {
+      "method": "SupeRR Ridge Blend (Ours)",
+      "role": "Batter",
+      "heldOutCorrelation": 0.429,
+      "notes": "Joint batter-bowler ridge on top-30% leverage balls blended with overall skill."
+    },
+    {
+      "method": "Raw Strike Rate / Economy",
+      "role": "Bowler",
+      "heldOutCorrelation": 0.198,
+      "notes": "Penalises death-over specialists who bowl primarily against set batters."
+    },
+    {
+      "method": "Raw Win Probability Added (WPA)",
+      "role": "Bowler",
+      "heldOutCorrelation": 0.271,
+      "notes": "Sensitive to batter errors and dropped catches in final overs."
+    },
+    {
+      "method": "Simple Bayesian Average",
+      "role": "Bowler",
+      "heldOutCorrelation": 0.342,
+      "notes": "Adjusts sample size without controlling for batting-lineup strength."
+    },
+    {
+      "method": "SupeRR Ridge Blend (Ours)",
+      "role": "Bowler",
+      "heldOutCorrelation": 0.414,
+      "notes": "Joint batter-bowler ridge on top-30% leverage balls blended with overall skill."
+    }
+  ]
+}

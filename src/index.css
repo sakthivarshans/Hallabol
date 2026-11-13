@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-heading: 'Poppins', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    --rr-pink: #EA1A85;
+    --rr-pink-hover: #FF4FA8;
+    --rr-navy: #0B1033;
+    --rr-surface: #141A4A;
+    --rr-soft-pink: #FFE3F1;
+    --rr-royal-blue: #254AA5;
+  }
+
+  body {
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-mono-num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle architectural grain overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(234, 26, 133, 0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.dark .bg-grain {
+  background-image: radial-gradient(rgba(255, 227, 241, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Soft RR pink glow */
+.rr-glow {
+  box-shadow: 0 10px 35px -12px rgba(234, 26, 133, 0.25);
+}
+
+.dark .rr-glow {
+  box-shadow: 0 12px 40px -14px rgba(234, 26, 133, 0.35);
+}
+
+/* Hero gradient animation */
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 12s ease infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-gradient {
+    animation: none;
+  }
+}
+
+/* Print stylesheet for Player Profile */
+@media print {
+  @page {
+    margin: 14mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #0b1033 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-break-inside-avoid {
+    break-inside: avoid;
+  }
+
+  .print-card {
+    background: #ffffff !important;
+    border: 1px solid #d1d5db !important;
+    box-shadow: none !important;
+    color: #0b1033 !important;
+  }
+}

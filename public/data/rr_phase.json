@@ -1,0 +1,32 @@
+{
+  "status": "DEMO",
+  "rows": [
+    {
+      "phase": "PP",
+      "rrBat": 1.04,
+      "leagueBat": 0.68,
+      "rrBowl": 0.72,
+      "leagueBowl": 0.54,
+      "rrBallsFaced": 1140,
+      "rrBallsBowled": 1096
+    },
+    {
+      "phase": "Mid",
+      "rrBat": 0.76,
+      "leagueBat": 0.62,
+      "rrBowl": 0.69,
+      "leagueBowl": 0.58,
+      "rrBallsFaced": 1480,
+      "rrBallsBowled": 1524
+    },
+    {
+      "phase": "Death",
+      "rrBat": 0.19,
+      "leagueBat": 0.84,
+      "rrBowl": 0.14,
+      "leagueBowl": 0.79,
+      "rrBallsFaced": 820,
+      "rrBallsBowled": 848
+    }
+  ]
+}
