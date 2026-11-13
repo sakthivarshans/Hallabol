@@ -288,7 +288,7 @@ export default function PlayerProfilePage() {
 
               <div className="rounded-2xl border border-slate-200/80 dark:border-white/10 bg-white dark:bg-[#141A4A] p-5 print-card">
                 <h3 className="text-sm font-semibold text-[#0B1033] dark:text-white font-heading">
-                  Pressure Effect vs Overall Effect (RAE / ball)
+                  Pressure Effect vs Overall Effect (RAE / 100 balls)
                 </h3>
                 <div className="mt-3 h-52 w-full">
                   <ResponsiveContainer width="100%" height="100%">
@@ -300,7 +300,7 @@ export default function PlayerProfilePage() {
                       <XAxis dataKey="name" tick={{ fill: '#94A3B8', fontSize: 12 }} axisLine={false} tickLine={false} />
                       <YAxis tick={{ fill: '#94A3B8', fontSize: 11 }} axisLine={false} tickLine={false} />
                       <Tooltip
-                        formatter={(val) => [typeof val === 'number' ? val.toFixed(2) : val, 'RAE / ball']}
+                        formatter={(val) => [typeof val === 'number' ? val.toFixed(2) : val, 'RAE / 100 balls']}
                         contentStyle={{
                           borderRadius: '12px',
                           border: '1px solid rgba(234,26,133,0.35)',
