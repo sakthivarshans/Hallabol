@@ -48,7 +48,7 @@ export function RRPhaseChart({ rows, mode }: RRPhaseChartProps) {
           <Tooltip
             formatter={(val) => [
               typeof val === 'number' ? val.toFixed(2) : val,
-              mode === 'bat' ? 'Pressure Bat RAE' : 'Pressure Bowl RAE',
+              mode === 'bat' ? 'Pressure Bat RAE / 100 balls' : 'Pressure Bowl runs saved / 100 balls',
             ]}
             contentStyle={{
               borderRadius: '12px',
