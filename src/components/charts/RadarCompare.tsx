@@ -22,8 +22,8 @@ function clamp0100(n: number): number {
 
 function buildMetrics(player: PlayerRecord): Record<string, number> {
   const isBatter = player.role.toLowerCase().includes('bat');
-  const score = clamp0100(player.score ?? 50);
-  const pressLift = clamp0100(50 + (player.pressEffect ?? 0) * 30);
+  const score = clamp0100(((player.score ?? 0) / (isBatter ? 9 : 4)) * 100); // top ratings ~9 (batters) / ~4 (bowlers) runs per 100 balls
+  const pressLift = clamp0100(50 + (player.pressEffect ?? 0) * 2);
   const certainty = clamp0100((player.pTop10 ?? 0) * 100);
   const consistency = clamp0100((player.positiveShare ?? 0) * 100);
   const specialist = isBatter
