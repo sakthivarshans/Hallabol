@@ -131,8 +131,8 @@ export default function RRSquadPage() {
                       <th className="py-3 pl-5 pr-3">Player</th>
                       <th className="py-3 px-3">Role</th>
                       <th className="py-3 px-3 text-right">Pressure Balls</th>
-                      <th className="py-3 px-3 text-right">Bat Value (RAE)</th>
-                      <th className="py-3 px-3 text-right">Bowl Value (RAE)</th>
+                      <th className="py-3 px-3 text-right">Bat Rating /100 balls</th>
+                      <th className="py-3 px-3 text-right">Bowl Rating /100 balls</th>
                       <th className="py-3 px-3 text-center">PP / Mid / Death</th>
                       <th className="py-3 pl-3 pr-5">Scouting Notes</th>
                     </tr>
