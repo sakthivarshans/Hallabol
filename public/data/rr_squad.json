@@ -1,123 +1,407 @@
 [
-  {
-    "status": "DEMO",
-    "slug": "yashasvi-jaiswal",
-    "name": "Yashasvi Jaiswal",
-    "role": "Batter",
-    "pressureBalls": 488,
-    "batValue": 1.19,
-    "bowlValue": null,
-    "phaseShare": { "PP": 68, "Mid": 26, "Death": 6 },
-    "notes": "Elite powerplay pressure striker (+1.19 RAE/ball); minimal exposure in overs 16–20."
+ {
+  "status": "computed",
+  "slug": "ravindra-jadeja",
+  "name": "Ravindra Jadeja",
+  "role": "All-Rounder",
+  "pressureBalls": 266,
+  "batValue": 0.46,
+  "bowlValue": 0.04,
+  "phaseShare": {
+   "PP": 9,
+   "Mid": 25,
+   "Death": 66
   },
-  {
-    "status": "DEMO",
-    "slug": "sanju-samson",
-    "name": "Sanju Samson",
-    "role": "Batter",
-    "pressureBalls": 512,
-    "batValue": 1.12,
-    "bowlValue": null,
-    "phaseShare": { "PP": 38, "Mid": 51, "Death": 11 },
-    "notes": "Strong top-3 anchor and spin accelerator; peak leverage in overs 5–14."
+  "notes": "Pressure rating per 100 balls: batting +0.5, bowling +0.0 on 266 pressure balls; most of that workload is in the death overs (66%)."
+ },
+ {
+  "status": "computed",
+  "slug": "adam-milne",
+  "name": "Adam Milne",
+  "role": "Bowler",
+  "pressureBalls": 229,
+  "batValue": -0.69,
+  "bowlValue": -0.04,
+  "phaseShare": {
+   "PP": 69,
+   "Mid": 4,
+   "Death": 27
   },
-  {
-    "status": "DEMO",
-    "slug": "riyan-parag",
-    "name": "Riyan Parag",
-    "role": "All-Rounder",
-    "pressureBalls": 442,
-    "batValue": 0.94,
-    "bowlValue": 0.14,
-    "phaseShare": { "PP": 10, "Mid": 62, "Death": 28 },
-    "notes": "Sharp middle-over growth in 2024–25; positive spin match-up value at #4."
+  "notes": "Pressure rating per 100 balls: bowling -0.0 on 229 pressure balls; most of that workload is in the powerplay (69%)."
+ },
+ {
+  "status": "computed",
+  "slug": "sandeep-sharma",
+  "name": "Sandeep Sharma",
+  "role": "Bowler",
+  "pressureBalls": 412,
+  "batValue": 0.06,
+  "bowlValue": 0.03,
+  "phaseShare": {
+   "PP": 61,
+   "Mid": 5,
+   "Death": 34
   },
-  {
-    "status": "DEMO",
-    "slug": "dhruv-jurel",
-    "name": "Dhruv Jurel",
-    "role": "Batter",
-    "pressureBalls": 296,
-    "batValue": 0.42,
-    "bowlValue": null,
-    "phaseShare": { "PP": 2, "Mid": 38, "Death": 60 },
-    "notes": "Composed vs hard lengths, but lower boundary rate under steep 12+ RPO death chases."
+  "notes": "Pressure rating per 100 balls: bowling +0.0 on 412 pressure balls; most of that workload is in the powerplay (61%)."
+ },
+ {
+  "status": "computed",
+  "slug": "dasun-shanaka",
+  "name": "Dasun Shanaka",
+  "role": "All-Rounder",
+  "pressureBalls": 202,
+  "batValue": 1.99,
+  "bowlValue": -0.22,
+  "phaseShare": {
+   "PP": 1,
+   "Mid": 22,
+   "Death": 77
   },
-  {
-    "status": "DEMO",
-    "slug": "shimron-hetmyer",
-    "name": "Shimron Hetmyer",
-    "role": "Batter",
-    "pressureBalls": 364,
-    "batValue": 0.58,
-    "bowlValue": null,
-    "phaseShare": { "PP": 0, "Mid": 28, "Death": 72 },
-    "notes": "Carries heavy death-finishing load alone; high variance without a second elite finisher."
+  "notes": "Pressure rating per 100 balls: batting +2.0, bowling -0.2 on 202 pressure balls; most of that workload is in the death overs (77%)."
+ },
+ {
+  "status": "computed",
+  "slug": "shimron-hetmyer",
+  "name": "Shimron Hetmyer",
+  "role": "Batter",
+  "pressureBalls": 279,
+  "batValue": 1.12,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": 16,
+   "Mid": 20,
+   "Death": 64
   },
-  {
-    "status": "DEMO",
-    "slug": "nitish-rana",
-    "name": "Nitish Rana",
-    "role": "Batter",
-    "pressureBalls": 348,
-    "batValue": 0.46,
-    "bowlValue": 0.08,
-    "phaseShare": { "PP": 18, "Mid": 66, "Death": 16 },
-    "notes": "Useful left-handed middle-over bridge; modest pressure uplift against high pace."
+  "notes": "Pressure rating per 100 balls: batting +1.1 on 279 pressure balls; most of that workload is in the death overs (64%)."
+ },
+ {
+  "status": "computed",
+  "slug": "jofra-archer",
+  "name": "Jofra Archer",
+  "role": "Bowler",
+  "pressureBalls": 559,
+  "batValue": -0.03,
+  "bowlValue": -0.27,
+  "phaseShare": {
+   "PP": 75,
+   "Mid": 4,
+   "Death": 21
   },
-  {
-    "status": "DEMO",
-    "slug": "jofra-archer",
-    "name": "Jofra Archer",
-    "role": "Bowler",
-    "pressureBalls": 382,
-    "batValue": -0.18,
-    "bowlValue": 0.88,
-    "phaseShare": { "PP": 48, "Mid": 16, "Death": 36 },
-    "notes": "High-impact powerplay strike bowler; needs death-over workload sharing."
+  "notes": "Pressure rating per 100 balls: bowling -0.3 on 559 pressure balls; most of that workload is in the powerplay (75%)."
+ },
+ {
+  "status": "computed",
+  "slug": "sam-curran",
+  "name": "Sam Curran",
+  "role": "All-Rounder",
+  "pressureBalls": 172,
+  "batValue": -0.88,
+  "bowlValue": -1.0,
+  "phaseShare": {
+   "PP": 24,
+   "Mid": 34,
+   "Death": 42
   },
-  {
-    "status": "DEMO",
-    "slug": "sandeep-sharma",
-    "name": "Sandeep Sharma",
-    "role": "Bowler",
-    "pressureBalls": 412,
-    "batValue": null,
-    "bowlValue": 0.74,
-    "phaseShare": { "PP": 46, "Mid": 12, "Death": 42 },
-    "notes": "Reliable swing & yorker execution, though speed ceiling gets tested on flat decks."
+  "notes": "Pressure rating per 100 balls: batting -0.9, bowling -1.0 on 172 pressure balls; most of that workload is in the death overs (42%)."
+ },
+ {
+  "status": "computed",
+  "slug": "riyan-parag",
+  "name": "Riyan Parag",
+  "role": "All-Rounder",
+  "pressureBalls": 229,
+  "batValue": 0.44,
+  "bowlValue": -0.14,
+  "phaseShare": {
+   "PP": 21,
+   "Mid": 41,
+   "Death": 38
   },
-  {
-    "status": "DEMO",
-    "slug": "wanindu-hasaranga",
-    "name": "Wanindu Hasaranga",
-    "role": "All-Rounder",
-    "pressureBalls": 396,
-    "batValue": 0.12,
-    "bowlValue": 0.82,
-    "phaseShare": { "PP": 6, "Mid": 78, "Death": 16 },
-    "notes": "Wicket-taking wrist spin in overs 7–15; rarely deployed inside the final three overs."
+  "notes": "Pressure rating per 100 balls: batting +0.4, bowling -0.1 on 229 pressure balls; most of that workload is in the middle overs (41%)."
+ },
+ {
+  "status": "computed",
+  "slug": "tushar-deshpande",
+  "name": "Tushar Deshpande",
+  "role": "Bowler",
+  "pressureBalls": 471,
+  "batValue": 0.18,
+  "bowlValue": -0.41,
+  "phaseShare": {
+   "PP": 64,
+   "Mid": 14,
+   "Death": 22
   },
-  {
-    "status": "DEMO",
-    "slug": "maheesh-theekshana",
-    "name": "Maheesh Theekshana",
-    "role": "Bowler",
-    "pressureBalls": 404,
-    "batValue": null,
-    "bowlValue": 0.69,
-    "phaseShare": { "PP": 44, "Mid": 46, "Death": 10 },
-    "notes": "Powerplay carrom-ball control; primarily used before over 15."
+  "notes": "Pressure rating per 100 balls: bowling -0.4 on 471 pressure balls; most of that workload is in the powerplay (64%)."
+ },
+ {
+  "status": "computed",
+  "slug": "yashasvi-jaiswal",
+  "name": "Yashasvi Jaiswal",
+  "role": "Batter",
+  "pressureBalls": 730,
+  "batValue": 1.05,
+  "bowlValue": -0.05,
+  "phaseShare": {
+   "PP": 89,
+   "Mid": 10,
+   "Death": 1
   },
-  {
-    "status": "DEMO",
-    "slug": "tushar-deshpande",
-    "name": "Tushar Deshpande",
-    "role": "Bowler",
-    "pressureBalls": 318,
-    "batValue": null,
-    "bowlValue": -0.24,
-    "phaseShare": { "PP": 36, "Mid": 16, "Death": 48 },
-    "notes": "Takes wickets in bursts but leaks high boundary counts in overs 17–20."
-  }
+  "notes": "Pressure rating per 100 balls: batting +1.1 on 730 pressure balls; most of that workload is in the powerplay (89%)."
+ },
+ {
+  "status": "computed",
+  "slug": "dhruv-jurel",
+  "name": "Dhruv Jurel",
+  "role": "Batter",
+  "pressureBalls": 296,
+  "batValue": 0.57,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": 20,
+   "Mid": 39,
+   "Death": 41
+  },
+  "notes": "Pressure rating per 100 balls: batting +0.6 on 296 pressure balls; most of that workload is in the death overs (41%)."
+ },
+ {
+  "status": "computed",
+  "slug": "sushant-mishra",
+  "name": "Sushant Mishra",
+  "role": "Batter",
+  "pressureBalls": 0,
+  "batValue": -0.01,
+  "bowlValue": 0.06,
+  "phaseShare": {
+   "PP": null,
+   "Mid": null,
+   "Death": null
+  },
+  "notes": "No pressure-ball sample in the data pack."
+ },
+ {
+  "status": "computed",
+  "slug": "nandre-burger",
+  "name": "Nandre Burger",
+  "role": "Bowler",
+  "pressureBalls": 208,
+  "batValue": 0.06,
+  "bowlValue": -0.63,
+  "phaseShare": {
+   "PP": 84,
+   "Mid": 12,
+   "Death": 4
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.6 on 208 pressure balls; most of that workload is in the powerplay (84%)."
+ },
+ {
+  "status": "computed",
+  "slug": "ravi-bishnoi",
+  "name": "Ravi Bishnoi",
+  "role": "Bowler",
+  "pressureBalls": 472,
+  "batValue": -1.11,
+  "bowlValue": -0.09,
+  "phaseShare": {
+   "PP": 28,
+   "Mid": 51,
+   "Death": 21
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.1 on 472 pressure balls; most of that workload is in the middle overs (51%)."
+ },
+ {
+  "status": "computed",
+  "slug": "kuldeep-sen",
+  "name": "Kuldeep Sen",
+  "role": "Bowler",
+  "pressureBalls": 74,
+  "batValue": -0.01,
+  "bowlValue": -0.26,
+  "phaseShare": {
+   "PP": 39,
+   "Mid": 16,
+   "Death": 45
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.3 on 74 pressure balls; most of that workload is in the death overs (45%). Small sample, so the rating is heavily shrunk toward zero."
+ },
+ {
+  "status": "computed",
+  "slug": "donovan-ferreira",
+  "name": "Donovan Ferreira",
+  "role": "All-Rounder",
+  "pressureBalls": 58,
+  "batValue": 1.02,
+  "bowlValue": -0.27,
+  "phaseShare": {
+   "PP": 5,
+   "Mid": 28,
+   "Death": 67
+  },
+  "notes": "Pressure rating per 100 balls: batting +1.0, bowling -0.3 on 58 pressure balls; most of that workload is in the death overs (67%). Small sample, so the rating is heavily shrunk toward zero."
+ },
+ {
+  "status": "computed",
+  "slug": "yudhvir-singh",
+  "name": "Yudhvir Singh",
+  "role": "Bowler",
+  "pressureBalls": 70,
+  "batValue": -0.41,
+  "bowlValue": -0.25,
+  "phaseShare": {
+   "PP": 89,
+   "Mid": 0,
+   "Death": 11
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.2 on 70 pressure balls; most of that workload is in the powerplay (89%). Small sample, so the rating is heavily shrunk toward zero."
+ },
+ {
+  "status": "computed",
+  "slug": "shubham-dubey",
+  "name": "Shubham Dubey",
+  "role": "Batter",
+  "pressureBalls": 52,
+  "batValue": 0.78,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": 0,
+   "Mid": 10,
+   "Death": 90
+  },
+  "notes": "Pressure rating per 100 balls: batting +0.8 on 52 pressure balls; most of that workload is in the death overs (90%). Small sample, so the rating is heavily shrunk toward zero."
+ },
+ {
+  "status": "computed",
+  "slug": "kwena-maphaka",
+  "name": "Kwena Maphaka",
+  "role": "Bowler",
+  "pressureBalls": 122,
+  "batValue": 0.17,
+  "bowlValue": -0.68,
+  "phaseShare": {
+   "PP": 57,
+   "Mid": 25,
+   "Death": 18
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.7 on 122 pressure balls; most of that workload is in the powerplay (57%)."
+ },
+ {
+  "status": "computed",
+  "slug": "yash-punja",
+  "name": "Yash Punja",
+  "role": "Bowler",
+  "pressureBalls": 30,
+  "batValue": null,
+  "bowlValue": -0.06,
+  "phaseShare": {
+   "PP": 0,
+   "Mid": 100,
+   "Death": 0
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.1 on 30 pressure balls; most of that workload is in the middle overs (100%). Small sample, so the rating is heavily shrunk toward zero."
+ },
+ {
+  "status": "computed",
+  "slug": "lhuan-pretorius",
+  "name": "Lhuan Pretorius",
+  "role": "Batter",
+  "pressureBalls": 36,
+  "batValue": -0.01,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": 100,
+   "Mid": 0,
+   "Death": 0
+  },
+  "notes": "Pressure rating per 100 balls: batting -0.0 on 36 pressure balls; most of that workload is in the powerplay (100%). Small sample, so the rating is heavily shrunk toward zero."
+ },
+ {
+  "status": "computed",
+  "slug": "emanjot-singh-chahal",
+  "name": "Emanjot Singh Chahal",
+  "role": "No data",
+  "pressureBalls": 0,
+  "batValue": null,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": null,
+   "Mid": null,
+   "Death": null
+  },
+  "notes": "No pressure-ball sample in the data pack."
+ },
+ {
+  "status": "computed",
+  "slug": "aman-rao-perala",
+  "name": "Aman Rao Perala",
+  "role": "No data",
+  "pressureBalls": 0,
+  "batValue": null,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": null,
+   "Mid": null,
+   "Death": null
+  },
+  "notes": "No pressure-ball sample in the data pack."
+ },
+ {
+  "status": "computed",
+  "slug": "vignesh-puthur",
+  "name": "Vignesh Puthur",
+  "role": "Bowler",
+  "pressureBalls": 1,
+  "batValue": null,
+  "bowlValue": -0.04,
+  "phaseShare": {
+   "PP": 0,
+   "Mid": 0,
+   "Death": 100
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.0 on 1 pressure balls; most of that workload is in the death overs (100%). Small sample, so the rating is heavily shrunk toward zero."
+ },
+ {
+  "status": "computed",
+  "slug": "vaibhav-sooryavanshi",
+  "name": "Vaibhav Sooryavanshi",
+  "role": "Batter",
+  "pressureBalls": 334,
+  "batValue": 7.72,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": 94,
+   "Mid": 6,
+   "Death": 0
+  },
+  "notes": "Pressure rating per 100 balls: batting +7.7 on 334 pressure balls; most of that workload is in the powerplay (94%)."
+ },
+ {
+  "status": "computed",
+  "slug": "ravi-singh",
+  "name": "Ravi Singh",
+  "role": "Batter",
+  "pressureBalls": 0,
+  "batValue": -0.05,
+  "bowlValue": null,
+  "phaseShare": {
+   "PP": null,
+   "Mid": null,
+   "Death": null
+  },
+  "notes": "No pressure-ball sample in the data pack."
+ },
+ {
+  "status": "computed",
+  "slug": "brijesh-sharma",
+  "name": "Brijesh Sharma",
+  "role": "Bowler",
+  "pressureBalls": 104,
+  "batValue": -0.01,
+  "bowlValue": -0.12,
+  "phaseShare": {
+   "PP": 52,
+   "Mid": 19,
+   "Death": 29
+  },
+  "notes": "Pressure rating per 100 balls: bowling -0.1 on 104 pressure balls; most of that workload is in the powerplay (52%)."
+ }
 ]
