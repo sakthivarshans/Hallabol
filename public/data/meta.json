@@ -1,16 +1,22 @@
 {
-  "status": "DEMO",
-  "modelVersion": "v2.4-ridge-wp",
-  "generatedAt": "2026-03-15T09:30:00Z",
-  "matches": 642,
-  "balls": 148320,
-  "pressureBalls": 44496,
-  "playersRated": 318,
-  "wicketCostRuns": 6.4,
-  "leverageCutoffPct": 30,
-  "blendWeights": {
-    "bat": [0.62, 0.38],
-    "bowl": [0.58, 0.42]
-  },
-  "period": "2022–2026 (IPL & Eligible T20Is)"
+ "status": "computed",
+ "modelVersion": "v2 · leverage win-probability + ridge blend",
+ "generatedAt": "2026-11-13T05:40:19Z",
+ "matches": 818,
+ "balls": 195124,
+ "pressureBalls": 58536,
+ "playersRated": 258,
+ "wicketCostRuns": 5.9,
+ "leverageCutoffPct": 30,
+ "blendWeights": {
+  "bat": [
+   0.235,
+   0.158
+  ],
+  "bowl": [
+   0.142,
+   0.101
+  ]
+ },
+ "period": "2022–2026 (IPL, A-team T20 events & T20Is)"
 }
