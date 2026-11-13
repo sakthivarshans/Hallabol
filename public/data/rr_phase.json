@@ -1,32 +1,32 @@
 {
-  "status": "DEMO",
-  "rows": [
-    {
-      "phase": "PP",
-      "rrBat": 1.04,
-      "leagueBat": 0.68,
-      "rrBowl": 0.72,
-      "leagueBowl": 0.54,
-      "rrBallsFaced": 1140,
-      "rrBallsBowled": 1096
-    },
-    {
-      "phase": "Mid",
-      "rrBat": 0.76,
-      "leagueBat": 0.62,
-      "rrBowl": 0.69,
-      "leagueBowl": 0.58,
-      "rrBallsFaced": 1480,
-      "rrBallsBowled": 1524
-    },
-    {
-      "phase": "Death",
-      "rrBat": 0.19,
-      "leagueBat": 0.84,
-      "rrBowl": 0.14,
-      "leagueBowl": 0.79,
-      "rrBallsFaced": 820,
-      "rrBallsBowled": 848
-    }
-  ]
+ "status": "computed",
+ "rows": [
+  {
+   "phase": "PP",
+   "rrBat": 26.93,
+   "leagueBat": 11.9,
+   "rrBowl": -22.88,
+   "leagueBowl": -11.84,
+   "rrBallsFaced": 638,
+   "rrBallsBowled": 702
+  },
+  {
+   "phase": "Mid",
+   "rrBat": 15.7,
+   "leagueBat": 5.31,
+   "rrBowl": -10.09,
+   "leagueBowl": -5.24,
+   "rrBallsFaced": 252,
+   "rrBallsBowled": 274
+  },
+  {
+   "phase": "Death",
+   "rrBat": -8.93,
+   "leagueBat": -1.13,
+   "rrBowl": -35.39,
+   "leagueBowl": 0.13,
+   "rrBallsFaced": 271,
+   "rrBallsBowled": 253
+  }
+ ]
 }
