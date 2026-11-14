@@ -181,6 +181,7 @@
   "Ratings are runs-based. Fielding, captaincy and the non-striker's contribution are not modelled, and run-outs are charged to neither bowler nor non-striker.",
   "The 'T20' group in the data pack contains IPL plus two A-team events; IPL-only checks use IPL fixtures only. T20I opposition varies in strength and is only partly handled by the joint batter-bowler model.",
   "No pitch, venue, injury or auction-availability information was used. IPL 2027 retentions and the final auction pool were not known when this was built.",
-  "Ball-level R² is tiny by nature (cricket outcomes are noisy); player-level repeatability across match splits is the metric that matters."
+  "Ball-level R² is tiny by nature (cricket outcomes are noisy); player-level repeatability across match splits is the metric that matters.",
+  "Domestic (Indian) list: nationality comes from India / India A entries in the data pack's team mapping. IPL players with no national-team entry were classified from public records and flagged in the data (nationalitySource); a few overseas players without an entry were excluded by name. Uncapped Indian players outside the IPL and the listed events are not covered."
  ]
 }
