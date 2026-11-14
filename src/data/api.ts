@@ -1,6 +1,7 @@
 import type {
   AllDashboardData,
   BenchmarksData,
+  DomesticMeta,
   MetaData,
   MethodologyData,
   PlayerRecord,
@@ -96,16 +97,53 @@ export async function getBowlers(): Promise<PlayerRecord[]> {
   return items;
 }
 
+export async function getDomesticBatters(): Promise<PlayerRecord[]> {
+  const raw = await fetchJson<RawArrayOrWrapped<PlayerRecord>>('domestic_batters.json');
+  const { items, isDemo } = unwrapArray(raw);
+  registerDemoStatus('domestic_batters', isDemo);
+  return items;
+}
+
+export async function getDomesticBowlers(): Promise<PlayerRecord[]> {
+  const raw = await fetchJson<RawArrayOrWrapped<PlayerRecord>>('domestic_bowlers.json');
+  const { items, isDemo } = unwrapArray(raw);
+  registerDemoStatus('domestic_bowlers', isDemo);
+  return items;
+}
+
+export async function getDomesticMeta(): Promise<DomesticMeta> {
+  const data = await fetchJson<DomesticMeta>('domestic.json');
+  registerDemoStatus('domestic', isDemoStatus(data.status));
+  return data;
+}
+
 export async function getAllPlayers(): Promise<PlayerRecord[]> {
-  const [batters, bowlers] = await Promise.all([getBatters(), getBowlers()]);
-  return [...batters, ...bowlers];
+  const [batters, bowlers, domBat, domBowl] = await Promise.all([
+    getBatters(),
+    getBowlers(),
+    getDomesticBatters(),
+    getDomesticBowlers(),
+  ]);
+  const main = [...batters, ...bowlers];
+  const names = new Set(main.map((p) => p.name));
+  // domestic-only players are searchable; players already in the main lists are not duplicated
+  return [...main, ...[...domBat, ...domBowl].filter((p) => !names.has(p.name))];
 }
 
 export async function getPlayerBySlug(slug: string): Promise<{
   player: PlayerRecord | null;
   siblings: PlayerRecord[];
 }> {
-  const [batters, bowlers] = await Promise.all([getBatters(), getBowlers()]);
+  const [batters, bowlers, domBat, domBowl] = await Promise.all([
+    getBatters(),
+    getBowlers(),
+    getDomesticBatters(),
+    getDomesticBowlers(),
+  ]);
+  const inDomBat = domBat.find((p) => p.slug === slug);
+  if (inDomBat) return { player: inDomBat, siblings: domBat };
+  const inDomBowl = domBowl.find((p) => p.slug === slug);
+  if (inDomBowl) return { player: inDomBowl, siblings: domBowl };
   const inBatters = batters.find((p) => p.slug === slug);
   if (inBatters) {
     return { player: inBatters, siblings: batters };
@@ -148,15 +186,21 @@ export function getAllDashboardData(forceRefresh = false): Promise<AllDashboardD
       getMeta(),
       getBatters(),
       getBowlers(),
+      getDomesticBatters(),
+      getDomesticBowlers(),
+      getDomesticMeta(),
       getRRSquad(),
       getRRPhase(),
       getMethodology(),
       getBenchmarks(),
     ])
-      .then(([meta, batters, bowlers, rrSquad, rrPhase, methodology, benchmarks]) => ({
+      .then(([meta, batters, bowlers, domesticBatters, domesticBowlers, domestic, rrSquad, rrPhase, methodology, benchmarks]) => ({
         meta,
         batters,
         bowlers,
+        domesticBatters,
+        domesticBowlers,
+        domestic,
         rrSquad,
         rrPhase,
         methodology,
