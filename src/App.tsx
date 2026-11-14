@@ -14,6 +14,7 @@ const LandingPage = lazy(() => import('@/src/pages/LandingPage'));
 const DashboardPage = lazy(() => import('@/src/pages/DashboardPage'));
 const LeaderboardPage = lazy(() => import('@/src/pages/LeaderboardPage'));
 const PlayerProfilePage = lazy(() => import('@/src/pages/PlayerProfilePage'));
+const DomesticPage = lazy(() => import('@/src/pages/DomesticPage'));
 const RRSquadPage = lazy(() => import('@/src/pages/RRSquadPage'));
 const ComparePage = lazy(() => import('@/src/pages/ComparePage'));
 const MethodPage = lazy(() => import('@/src/pages/MethodPage'));
@@ -108,6 +109,7 @@ function AppShell() {
               <Route path="/dashboard" element={<DashboardPage />} />
               <Route path="/batters" element={<LeaderboardPage roleType="Batter" />} />
               <Route path="/bowlers" element={<LeaderboardPage roleType="Bowler" />} />
+              <Route path="/domestic" element={<DomesticPage />} />
               <Route path="/player/:slug" element={<PlayerProfilePage />} />
               <Route path="/rr-squad" element={<RRSquadPage />} />
               <Route path="/compare" element={<ComparePage />} />
