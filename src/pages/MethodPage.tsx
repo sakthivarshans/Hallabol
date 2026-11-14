@@ -67,7 +67,7 @@ export default function MethodPage() {
           Technical Appendix & Validation
         </p>
         <h1 className="mt-1 text-2xl sm:text-4xl font-extrabold text-[#0B1033] dark:text-white font-heading [text-wrap:balance]">
-          How We Calculated Pressure Performers
+          How I Calculated Pressure Performers
         </h1>
         <p className="mt-2 max-w-3xl text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
           Every figure below is populated directly from the competition data pack artifacts (
@@ -90,7 +90,7 @@ export default function MethodPage() {
                   Raw T20 averages and strike rates treat a low-stakes boundary at 180/1 in the 17th over identically to a six hit when chasing 42 off 18 balls with three wickets left. For franchise recruitment, that conflation overrates front-runners and hides clutch finishers and death bowlers.
                 </p>
                 <p>
-                  We define pressure dynamically using ball-by-ball{' '}
+                  I define pressure dynamically using ball-by-ball{' '}
                   <strong className="text-[#0B1033] dark:text-white">match leverage</strong>: how steeply team win probability can swing on the upcoming delivery. Within every innings, only the top{' '}
                   <span className="font-mono-num font-semibold text-[#EA1A85]">
                     {orToBeAdded(data.meta.leverageCutoffPct)}%
@@ -226,7 +226,7 @@ export default function MethodPage() {
                           <th className="py-3 pl-5 pr-3">Role</th>
                           <th className="py-3 px-3 text-right">Pressure Only</th>
                           <th className="py-3 px-3 text-right">Overall Only</th>
-                          <th className="py-3 px-3 text-right text-[#EA1A85]">Blend (Ours)</th>
+                          <th className="py-3 px-3 text-right text-[#EA1A85]">Blend (Mine)</th>
                           <th className="py-3 pl-3 pr-5 text-right">Weights (P / All)</th>
                         </tr>
                       </thead>
