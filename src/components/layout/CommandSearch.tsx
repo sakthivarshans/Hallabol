@@ -85,7 +85,7 @@ export function CommandSearch({ open, onClose }: CommandSearchProps) {
                 handleSelect(filtered[activeIndex].slug);
               }
             }}
-            placeholder="Search any of the 20 players by name, role, or RR fit..."
+            placeholder="Search any listed player by name, role, or RR fit..."
             className="w-full bg-transparent text-sm text-[#0B1033] dark:text-white placeholder:text-slate-400 focus:outline-none"
           />
           <button
