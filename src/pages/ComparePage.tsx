@@ -125,7 +125,7 @@ export default function ComparePage() {
         numB: playerB.pressEffect,
       },
       {
-        label: 'Overall Effect (RAE/100 balls)',
+        label: 'Non-Pressure Effect (RAE/100 balls)',
         valA: fmtSigned(playerA.overallEffect, 2),
         valB: fmtSigned(playerB.overallEffect, 2),
         numA: playerA.overallEffect,
