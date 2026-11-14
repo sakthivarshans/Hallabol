@@ -1,6 +1,6 @@
 {
  "status": "computed — held-out correlation, mean of 12 random match splits",
- "summary": "Headline test: how well each method, built from one random half of the matches, predicts a player's win-probability impact under pressure in the other half (mean of 12 splits). Bowlers: the blend ties or beats every simpler method on all three targets (win impact 0.14 vs 0.14 for raw economy; opposition-adjusted skill 0.21 vs 0.12). Batters: a plain pressure strike rate predicts raw future outcomes better than our blend (win impact 0.26 vs 0.18); the blend wins only on opposition-adjusted skill (0.35 vs 0.30). So the blend's value is fairness to opposition quality and honest uncertainty (rank ranges, P(top 10)), not raw predictive power for batters. Strike rate is a strong, simple baseline and is shown on every batter profile.",
+ "summary": "Headline test: how well each method, built from one random half of the matches, predicts a player's win-probability impact under pressure in the other half (mean of 12 splits). Bowlers: the blend ties or beats every simpler method on all three targets (win impact 0.14 vs 0.14 for raw economy; opposition-adjusted skill 0.21 vs 0.12). Batters: a plain pressure strike rate predicts raw future outcomes better than my blend (win impact 0.26 vs 0.18); the blend wins only on opposition-adjusted skill (0.35 vs 0.30). So the blend's value is fairness to opposition quality and honest uncertainty (rank ranges, P(top 10)), not raw predictive power for batters. Strike rate is a strong, simple baseline and is shown on every batter profile.",
  "rows": [
   {
    "method": "Raw Strike Rate / Economy",
@@ -21,7 +21,7 @@
    "notes": "Shrinks average runs above expected toward the league mean; no opposition adjustment and no overall-skill signal. Held-out r vs future: win impact 0.17 (headline), runs above expected 0.23, opposition-adjusted skill 0.28."
   },
   {
-   "method": "SupeRR Ridge Blend (Ours)",
+   "method": "SupeRR Ridge Blend (Mine)",
    "role": "Batter",
    "heldOutCorrelation": 0.184,
    "notes": "Joint batter-bowler ridge on top-30% leverage balls, blended with overall skill. Held-out r vs future: win impact 0.18 (headline), runs above expected 0.25, opposition-adjusted skill 0.35."
@@ -45,7 +45,7 @@
    "notes": "Shrinks average runs above expected toward the league mean; no opposition adjustment and no overall-skill signal. Held-out r vs future: win impact 0.08 (headline), runs above expected 0.07, opposition-adjusted skill 0.14."
   },
   {
-   "method": "SupeRR Ridge Blend (Ours)",
+   "method": "SupeRR Ridge Blend (Mine)",
    "role": "Bowler",
    "heldOutCorrelation": 0.138,
    "notes": "Joint batter-bowler ridge on top-30% leverage balls, blended with overall skill. Held-out r vs future: win impact 0.14 (headline), runs above expected 0.13, opposition-adjusted skill 0.21."
