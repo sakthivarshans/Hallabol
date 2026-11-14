@@ -15,7 +15,7 @@ const NAV_LINKS = [
   { to: '/domestic', label: 'Domestic' },
   { to: '/rr-squad', label: 'RR Squad' },
   { to: '/compare', label: 'Compare' },
-  { to: '/method', label: 'How we calculated' },
+  { to: '/method', label: 'How I calculated' },
 ];
 
 export function Navbar({ onOpenSearch, onOpenGlossary }: NavbarProps) {
