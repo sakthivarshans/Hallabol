@@ -35,12 +35,18 @@ export default function PlayerProfilePage() {
 
   const allBatters = data?.batters ?? [];
   const allBowlers = data?.bowlers ?? [];
+  const domBatters = data?.domesticBatters ?? [];
+  const domBowlers = data?.domesticBowlers ?? [];
 
   const inBatters = allBatters.findIndex((p) => p.slug === slug);
   const inBowlers = allBowlers.findIndex((p) => p.slug === slug);
+  const inDomBat = domBatters.findIndex((p) => p.slug === slug);
+  const inDomBowl = domBowlers.findIndex((p) => p.slug === slug);
 
-  const siblings = inBatters >= 0 ? allBatters : inBowlers >= 0 ? allBowlers : [];
-  const currentIdx = inBatters >= 0 ? inBatters : inBowlers;
+  const siblings =
+    inBatters >= 0 ? allBatters : inBowlers >= 0 ? allBowlers : inDomBat >= 0 ? domBatters : inDomBowl >= 0 ? domBowlers : [];
+  const currentIdx =
+    inBatters >= 0 ? inBatters : inBowlers >= 0 ? inBowlers : inDomBat >= 0 ? inDomBat : inDomBowl;
   const player = currentIdx >= 0 ? siblings[currentIdx] : null;
   const prevPlayer = currentIdx > 0 ? siblings[currentIdx - 1] : null;
   const nextPlayer =
@@ -104,11 +110,11 @@ export default function PlayerProfilePage() {
               <div className="flex items-center gap-2">
                 <button
                   type="button"
-                  onClick={() => navigate(isBatter ? '/batters' : '/bowlers')}
+                  onClick={() => navigate(player?.domestic ? '/domestic' : isBatter ? '/batters' : '/bowlers')}
                   className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 dark:border-white/15 bg-white dark:bg-[#141A4A] px-3 py-2 text-xs font-medium text-slate-700 dark:text-slate-200 hover:border-[#EA1A85]"
                 >
                   <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
-                  All {isBatter ? 'Batters' : 'Bowlers'}
+                  {player?.domestic ? 'Domestic list' : `All ${isBatter ? 'Batters' : 'Bowlers'}`}
                 </button>
                 {prevPlayer && (
                   <Link
@@ -174,6 +180,7 @@ export default function PlayerProfilePage() {
                     </div>
                     <h1 className="mt-1 text-2xl sm:text-4xl font-extrabold text-[#0B1033] dark:text-white font-heading">
                       {player.name}
+                      {player.isIndian && <span className="ml-2 align-middle rounded-full bg-[#EA1A85]/15 px-2 py-0.5 text-[10px] font-semibold text-[#EA1A85]">Indian</span>}
                     </h1>
                     <p className="mt-1.5 text-sm text-slate-600 dark:text-slate-300">
                       {player.handOrType} · {player.fitTag}
