@@ -35,7 +35,9 @@
   "fitTag": "New-Ball Pressure Bowler",
   "whyRR": "Ranked #1 bowler under pressure: +3.4 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 7.33 an over with 54 wickets across 53 spells, and has a positive match impact in 70% of them. Rank range across 300 resamples: #1–#11; chance of a top-10 finish 95%.",
   "rrNeed": "RR's powerplay bowling under pressure is 11.0 runs per 100 balls worse than the league average (IPL 2025–26). 72% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 377 pressure balls in 33 spells, economy 7.56 with 34 wickets. IPL-only rank #1 of 93 eligible bowlers. Form: +3.4 in 2025–26 vs +3.4 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 377 pressure balls in 33 spells, economy 7.56 with 34 wickets. IPL-only rank #1 of 93 eligible bowlers. Form: +3.4 in 2025–26 vs +3.4 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -73,7 +75,9 @@
   "fitTag": "New-Ball Pressure Bowler",
   "whyRR": "Ranked #2 bowler under pressure: +2.7 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 7.32 an over with 30 wickets across 69 spells, and has a positive match impact in 61% of them. Rank range across 300 resamples: #1–#18; chance of a top-10 finish 85%.",
   "rrNeed": "RR's powerplay bowling under pressure is 11.0 runs per 100 balls worse than the league average (IPL 2025–26). 67% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 494 pressure balls in 48 spells, economy 7.59 with 20 wickets. IPL-only rank #2 of 93 eligible bowlers. Form: +2.2 in 2025–26 vs +3.4 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 494 pressure balls in 48 spells, economy 7.59 with 20 wickets. IPL-only rank #2 of 93 eligible bowlers. Form: +2.2 in 2025–26 vs +3.4 in 2022–24 (per 100 pressure balls).",
+  "isIndian": true,
+  "nationalitySource": "data pack mapping (India / India A)"
  },
  {
   "status": "computed",
@@ -111,7 +115,9 @@
   "fitTag": "Middle-Over Spin Squeeze",
   "whyRR": "Ranked #3 bowler under pressure: +2.1 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 7.79 an over with 28 wickets across 52 spells, and has a positive match impact in 65% of them. Rank range across 300 resamples: #1–#25; chance of a top-10 finish 68%.",
   "rrNeed": "RR's middle overs bowling under pressure is 4.8 runs per 100 balls worse than the league average (IPL 2025–26). 50% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 230 pressure balls in 36 spells, economy 7.96 with 20 wickets. IPL-only rank #9 of 93 eligible bowlers. Form: +2.8 in 2025–26 vs +1.5 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 230 pressure balls in 36 spells, economy 7.96 with 20 wickets. IPL-only rank #9 of 93 eligible bowlers. Form: +2.8 in 2025–26 vs +1.5 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -149,7 +155,9 @@
   "fitTag": "Middle-Over Spin Squeeze",
   "whyRR": "Ranked #4 bowler under pressure: +2.1 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 7.41 an over with 13 wickets across 36 spells, and has a positive match impact in 56% of them. Rank range across 300 resamples: #2–#21; chance of a top-10 finish 71%.",
   "rrNeed": "RR's middle overs bowling under pressure is 4.8 runs per 100 balls worse than the league average (IPL 2025–26). 52% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 259 pressure balls in 36 spells, economy 7.41 with 13 wickets. IPL-only rank #3 of 93 eligible bowlers. Form: +2.5 in 2025–26 vs +1.7 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 259 pressure balls in 36 spells, economy 7.41 with 13 wickets. IPL-only rank #3 of 93 eligible bowlers. Form: +2.5 in 2025–26 vs +1.7 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -187,7 +195,9 @@
   "fitTag": "New-Ball Pressure Bowler",
   "whyRR": "Ranked #5 bowler under pressure: +1.8 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 7.89 an over with 49 wickets across 90 spells, and has a positive match impact in 56% of them. Rank range across 300 resamples: #2–#39; chance of a top-10 finish 55%.",
   "rrNeed": "RR's powerplay bowling under pressure is 11.0 runs per 100 balls worse than the league average (IPL 2025–26). 72% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 757 pressure balls in 68 spells, economy 7.60 with 38 wickets. IPL-only rank #4 of 93 eligible bowlers. Form: +1.5 in 2025–26 vs +2.0 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 757 pressure balls in 68 spells, economy 7.60 with 38 wickets. IPL-only rank #4 of 93 eligible bowlers. Form: +1.5 in 2025–26 vs +2.0 in 2022–24 (per 100 pressure balls).",
+  "isIndian": true,
+  "nationalitySource": "data pack mapping (India / India A)"
  },
  {
   "status": "computed",
@@ -225,7 +235,9 @@
   "fitTag": "Death-Over Specialist",
   "whyRR": "Ranked #6 bowler under pressure: +1.7 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 8.59 an over with 23 wickets across 32 spells, and has a positive match impact in 69% of them. Rank range across 300 resamples: #2–#43; chance of a top-10 finish 46%.",
   "rrNeed": "RR's death overs bowling under pressure is 35.5 runs per 100 balls worse than the league average (IPL 2025–26). 63% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 165 pressure balls in 22 spells, economy 8.62 with 14 wickets. IPL-only rank #5 of 93 eligible bowlers. Form: +0.3 in 2025–26 vs +2.8 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 165 pressure balls in 22 spells, economy 8.62 with 14 wickets. IPL-only rank #5 of 93 eligible bowlers. Form: +0.3 in 2025–26 vs +2.8 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -263,7 +275,9 @@
   "fitTag": "Multi-Phase Pressure Bowler",
   "whyRR": "Ranked #7 bowler under pressure: +1.6 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 8.50 an over with 18 wickets across 27 spells, and has a positive match impact in 63% of them. Rank range across 300 resamples: #3–#36; chance of a top-10 finish 44%.",
   "rrNeed": "RR's powerplay bowling under pressure is 11.0 runs per 100 balls worse than the league average (IPL 2025–26). 47% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 157 pressure balls in 14 spells, economy 8.56 with 10 wickets. IPL-only rank #7 of 93 eligible bowlers. Form: +2.6 in 2025–26 vs +0.6 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 157 pressure balls in 14 spells, economy 8.56 with 10 wickets. IPL-only rank #7 of 93 eligible bowlers. Form: +2.6 in 2025–26 vs +0.6 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -301,7 +315,9 @@
   "fitTag": "Death-Over Specialist",
   "whyRR": "Ranked #8 bowler under pressure: +1.5 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 8.22 an over with 32 wickets across 60 spells, and has a positive match impact in 60% of them. Rank range across 300 resamples: #2–#54; chance of a top-10 finish 43%.",
   "rrNeed": "RR's powerplay bowling under pressure is 11.0 runs per 100 balls worse than the league average (IPL 2025–26). 44% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 186 pressure balls in 21 spells, economy 9.00 with 15 wickets. IPL-only rank #12 of 93 eligible bowlers. Form: +2.6 in 2025–26 vs +0.7 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 186 pressure balls in 21 spells, economy 9.00 with 15 wickets. IPL-only rank #12 of 93 eligible bowlers. Form: +2.6 in 2025–26 vs +0.7 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -339,7 +355,9 @@
   "fitTag": "Death-Over Specialist",
   "whyRR": "Ranked #9 bowler under pressure: +1.5 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 8.80 an over with 23 wickets across 34 spells, and has a positive match impact in 59% of them. Rank range across 300 resamples: #4–#45; chance of a top-10 finish 31%.",
   "rrNeed": "RR's death overs bowling under pressure is 35.5 runs per 100 balls worse than the league average (IPL 2025–26). 42% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 104 pressure balls in 11 spells, economy 9.29 with 8 wickets. IPL-only rank #26 of 93 eligible bowlers. Form: +1.5 in 2025–26 vs +1.3 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 104 pressure balls in 11 spells, economy 9.29 with 8 wickets. IPL-only rank #26 of 93 eligible bowlers. Form: +1.5 in 2025–26 vs +1.3 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -377,6 +395,8 @@
   "fitTag": "New-Ball Pressure Bowler",
   "whyRR": "Ranked #10 bowler under pressure: +1.4 runs saved per 100 pressure balls (shrunk estimate). Under high leverage he concedes 7.60 an over with 22 wickets across 33 spells, and has a positive match impact in 64% of them. Rank range across 300 resamples: #2–#73; chance of a top-10 finish 42%.",
   "rrNeed": "RR's powerplay bowling under pressure is 11.0 runs per 100 balls worse than the league average (IPL 2025–26). 71% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 24 pressure balls in 2 spells, economy 11.75 with 4 wickets. Form: +1.1 in 2025–26 vs +1.7 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 24 pressure balls in 2 spells, economy 11.75 with 4 wickets. Form: +1.1 in 2025–26 vs +1.7 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  }
 ]
