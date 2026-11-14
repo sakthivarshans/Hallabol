@@ -45,21 +45,21 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     id: 'blend',
     term: 'Blended Pressure Score',
-    shortLabel: 'Pressure + overall skill composite',
+    shortLabel: 'Pressure + non-pressure skill composite',
     definition:
-      'Cross-validated weighted blend combining pressure-only ridge skill and overall-innings ridge skill, scaled 0–100 to maximise out-of-sample prediction of future high-pressure performance.',
+      'Cross-validated weighted blend combining pressure-ball ridge skill and non-pressure ridge skill, with weights chosen to best predict held-out pressure performance. Expressed as runs above expected per 100 pressure balls.',
   },
 ];
 
 export const METRIC_TOOLTIPS: Record<string, string> = {
   score:
-    'Blended 0–100 pressure performer rating combining high-leverage ridge skill and overall skill.',
+    'Blended pressure rating (runs above par per 100 pressure balls) combining high-leverage ridge skill and non-pressure skill.',
   pressEffect:
     'Context-adjusted Runs Above Expected per 100 pressure balls (batters: positive is better; bowlers: runs saved per ball, positive is better).',
   overallEffect:
-    'Context-adjusted Runs Above Expected across all balls faced or bowled, used to stabilise noisy pressure samples.',
+    'Context-adjusted Runs Above Expected per 100 non-pressure balls, used to stabilise noisy pressure samples.',
   pTop10:
-    'Probability of finishing inside the Top 10 across 1,000 match-level bootstrap resamples.',
+    'Probability of finishing inside the Top 10 across 300 match-level bootstrap resamples.',
   rankRange:
     'Median rank with 5th–95th percentile (90% confidence interval) across bootstrap resamples.',
   positiveShare:
