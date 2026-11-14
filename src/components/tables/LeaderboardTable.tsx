@@ -341,6 +341,7 @@ export function LeaderboardTable({
                           <div className="min-w-0">
                             <div className="font-semibold text-[#0B1033] dark:text-white truncate">
                               {p.name}
+                              {p.isIndian && <span className="ml-1.5 align-middle rounded-full bg-[#EA1A85]/15 px-2 py-0.5 text-[10px] font-semibold text-[#EA1A85]">Indian</span>}
                             </div>
                             <div className="text-xs text-slate-500 dark:text-slate-400 truncate">
                               {p.handOrType} · {p.fitTag}
