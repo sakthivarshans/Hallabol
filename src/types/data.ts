@@ -23,6 +23,9 @@ export interface MetaData {
 
 export interface PlayerRecord {
   status?: string;
+  isIndian?: boolean;
+  domestic?: boolean;
+  nationalitySource?: string;
   rank: number;
   id: string;
   slug: string;
@@ -138,10 +141,25 @@ export interface BenchmarksData {
   rows: BenchmarkRow[];
 }
 
+export interface DomesticMeta {
+  status?: string;
+  title: string;
+  note: string;
+  criteria: string;
+  nationalityRule: string;
+  poolBatters: number;
+  poolBowlers: number;
+  mappedIndian: number;
+  supplementedIndian: number;
+}
+
 export interface AllDashboardData {
   meta: MetaData;
   batters: PlayerRecord[];
   bowlers: PlayerRecord[];
+  domesticBatters: PlayerRecord[];
+  domesticBowlers: PlayerRecord[];
+  domestic: DomesticMeta;
   rrSquad: RRSquadMember[];
   rrPhase: RRPhaseData;
   methodology: MethodologyData;
