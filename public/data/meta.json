@@ -1,21 +1,21 @@
 {
  "status": "computed",
  "modelVersion": "v2 · leverage win-probability + ridge blend",
- "generatedAt": "2026-11-13T05:40:19Z",
+ "generatedAt": "2026-11-14T04:50:10Z",
  "matches": 818,
  "balls": 195124,
- "pressureBalls": 58536,
- "playersRated": 258,
- "wicketCostRuns": 5.9,
+ "pressureBalls": 58538,
+ "playersRated": 264,
+ "wicketCostRuns": 5.7,
  "leverageCutoffPct": 30,
  "blendWeights": {
   "bat": [
-   0.235,
-   0.158
+   0.224,
+   0.263
   ],
   "bowl": [
-   0.142,
-   0.101
+   0.083,
+   0.116
   ]
  },
  "period": "2022–2026 (IPL, A-team T20 events & T20Is)"
