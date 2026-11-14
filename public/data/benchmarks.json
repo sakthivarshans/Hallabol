@@ -1,54 +1,54 @@
 {
  "status": "computed — held-out correlation, mean of 12 random match splits",
- "summary": "Headline test: how well each method, built from one random half of the matches, predicts a player's win-probability impact under pressure in the other half (mean of 12 splits). Bowlers: the blend ties or beats every simpler method on all three targets (win impact 0.14 vs 0.14 for raw economy; opposition-adjusted skill 0.21 vs 0.12). Batters: a plain pressure strike rate predicts raw future outcomes better than my blend (win impact 0.26 vs 0.18); the blend wins only on opposition-adjusted skill (0.35 vs 0.30). So the blend's value is fairness to opposition quality and honest uncertainty (rank ranges, P(top 10)), not raw predictive power for batters. Strike rate is a strong, simple baseline and is shown on every batter profile.",
+ "summary": "Headline test: how well each method, built from one random half of the matches, predicts a player's win-probability impact under pressure in the other half (mean of 12 splits). Bowlers: my blend vs raw economy is 0.14 vs 0.10 on win impact, 0.09 vs 0.03 on runs above expected and 0.18 vs 0.06 on opposition-adjusted skill. Batters: my blend vs raw strike rate is 0.21 vs 0.18 on win impact, 0.26 vs 0.26 on runs above expected and 0.36 vs 0.26 on opposition-adjusted skill. Read these as an honest comparison, not a claim of superiority: where raw strike rate or economy scores higher on raw outcomes, the blend's value is fairness to opposition quality and explicit uncertainty (rank ranges, P(top 10)).",
  "rows": [
   {
    "method": "Raw Strike Rate / Economy",
    "role": "Batter",
-   "heldOutCorrelation": 0.255,
-   "notes": "Pressure-ball strike rate (batters) or economy (bowlers) from one half of the matches. Held-out r vs future: win impact 0.26 (headline), runs above expected 0.32, opposition-adjusted skill 0.30."
+   "heldOutCorrelation": 0.184,
+   "notes": "Pressure-ball strike rate (batters) or economy (bowlers) from one half of the matches. Held-out r vs future: win impact 0.18 (headline), runs above expected 0.26, opposition-adjusted skill 0.26."
   },
   {
    "method": "Raw Win Probability Added (WPA)",
    "role": "Batter",
-   "heldOutCorrelation": 0.118,
-   "notes": "Average win-probability swing per ball in pressure situations. Very noisy on small samples. Held-out r vs future: win impact 0.12 (headline), runs above expected 0.15, opposition-adjusted skill 0.14."
+   "heldOutCorrelation": 0.072,
+   "notes": "Average win-probability swing per ball in pressure situations. Very noisy on small samples. Held-out r vs future: win impact 0.07 (headline), runs above expected 0.12, opposition-adjusted skill 0.13."
   },
   {
    "method": "Simple Bayesian Average",
    "role": "Batter",
-   "heldOutCorrelation": 0.169,
-   "notes": "Shrinks average runs above expected toward the league mean; no opposition adjustment and no overall-skill signal. Held-out r vs future: win impact 0.17 (headline), runs above expected 0.23, opposition-adjusted skill 0.28."
+   "heldOutCorrelation": 0.15,
+   "notes": "Shrinks average runs above expected toward the league mean; no opposition adjustment and no baseline-skill signal. Held-out r vs future: win impact 0.15 (headline), runs above expected 0.20, opposition-adjusted skill 0.23."
   },
   {
    "method": "SupeRR Ridge Blend (Mine)",
    "role": "Batter",
-   "heldOutCorrelation": 0.184,
-   "notes": "Joint batter-bowler ridge on top-30% leverage balls, blended with overall skill. Held-out r vs future: win impact 0.18 (headline), runs above expected 0.25, opposition-adjusted skill 0.35."
+   "heldOutCorrelation": 0.208,
+   "notes": "Joint batter-bowler ridge on pressure balls, blended with the same ridge fitted on non-pressure balls. Held-out r vs future: win impact 0.21 (headline), runs above expected 0.26, opposition-adjusted skill 0.36."
   },
   {
    "method": "Raw Strike Rate / Economy",
    "role": "Bowler",
-   "heldOutCorrelation": 0.137,
-   "notes": "Pressure-ball strike rate (batters) or economy (bowlers) from one half of the matches. Held-out r vs future: win impact 0.14 (headline), runs above expected 0.09, opposition-adjusted skill 0.12."
+   "heldOutCorrelation": 0.095,
+   "notes": "Pressure-ball strike rate (batters) or economy (bowlers) from one half of the matches. Held-out r vs future: win impact 0.10 (headline), runs above expected 0.03, opposition-adjusted skill 0.06."
   },
   {
    "method": "Raw Win Probability Added (WPA)",
    "role": "Bowler",
-   "heldOutCorrelation": 0.115,
-   "notes": "Average win-probability swing per ball in pressure situations. Very noisy on small samples. Held-out r vs future: win impact 0.12 (headline), runs above expected 0.05, opposition-adjusted skill 0.06."
+   "heldOutCorrelation": 0.054,
+   "notes": "Average win-probability swing per ball in pressure situations. Very noisy on small samples. Held-out r vs future: win impact 0.05 (headline), runs above expected -0.02, opposition-adjusted skill 0.03."
   },
   {
    "method": "Simple Bayesian Average",
    "role": "Bowler",
-   "heldOutCorrelation": 0.084,
-   "notes": "Shrinks average runs above expected toward the league mean; no opposition adjustment and no overall-skill signal. Held-out r vs future: win impact 0.08 (headline), runs above expected 0.07, opposition-adjusted skill 0.14."
+   "heldOutCorrelation": 0.032,
+   "notes": "Shrinks average runs above expected toward the league mean; no opposition adjustment and no baseline-skill signal. Held-out r vs future: win impact 0.03 (headline), runs above expected 0.03, opposition-adjusted skill 0.09."
   },
   {
    "method": "SupeRR Ridge Blend (Mine)",
    "role": "Bowler",
-   "heldOutCorrelation": 0.138,
-   "notes": "Joint batter-bowler ridge on top-30% leverage balls, blended with overall skill. Held-out r vs future: win impact 0.14 (headline), runs above expected 0.13, opposition-adjusted skill 0.21."
+   "heldOutCorrelation": 0.14,
+   "notes": "Joint batter-bowler ridge on pressure balls, blended with the same ridge fitted on non-pressure balls. Held-out r vs future: win impact 0.14 (headline), runs above expected 0.09, opposition-adjusted skill 0.18."
   }
  ]
 }
