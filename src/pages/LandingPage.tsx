@@ -95,7 +95,10 @@ export default function LandingPage() {
       </div>
 
       <div className="relative z-10 border-t border-white/10 px-6 py-4 text-center text-xs text-slate-300/80">
-        Built for the RR SupeRR Selector Season 2 · Data pack used for this competition only
+        <p>Built for the RR SupeRR Selector Season 2 · Data pack used for this competition only</p>
+        <p className="mt-1">
+          Built by <span className="font-semibold text-[#FF4FA8]">Sakthivarshan S</span> · LinkedIn: linkedin.com/in/sakthivarshans10
+        </p>
       </div>
     </section>
   );
