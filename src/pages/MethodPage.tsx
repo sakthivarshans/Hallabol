@@ -128,7 +128,7 @@ export default function MethodPage() {
                 <MethodStep
                   stepNumber={2}
                   title="Match-State Features"
-                  description="Encode innings, balls remaining, wickets in hand, runs required, venue scoring baseline, and phase."
+                  description="Encode innings, balls remaining, wickets in hand, runs required (chases) or runs ahead of par (first innings), and competition type. No venue data is used."
                 />
                 <MethodStep
                   stepNumber={3}
@@ -159,9 +159,9 @@ export default function MethodPage() {
                 />
                 <MethodStep
                   stepNumber={8}
-                  title="Pressure + Overall Blend"
+                  title="Pressure + Non-Pressure Blend"
                   metricBadge={`Bat ${orToBeAdded(data.meta.blendWeights?.bat?.[0], (n) => n.toFixed(2))} / ${orToBeAdded(data.meta.blendWeights?.bat?.[1], (n) => n.toFixed(2))}`}
-                  description="Combine noisy pressure-only skill with broader overall skill using cross-validated weights."
+                  description="Combine noisy pressure-ball skill with skill measured on non-pressure balls, using weights learned from held-out matches."
                 />
                 <MethodStep
                   stepNumber={9}
@@ -183,7 +183,7 @@ export default function MethodPage() {
                     Grouped Match CV Win-Prob
                   </h3>
                   <p className="mt-1.5">
-                    Splitting folds strictly by match prevents ball-level leakage within the same chase and ensures well-calibrated probabilities across the full 0–100% range.
+                    Splitting folds strictly by match prevents ball-level leakage within the same chase and gives honest out-of-fold probabilities; the calibration chart shows where the model is slightly overconfident.
                   </p>
                 </div>
                 <div className="rounded-xl border border-slate-200/70 dark:border-white/10 p-4">
@@ -225,7 +225,7 @@ export default function MethodPage() {
                         <tr className="border-b border-slate-200 dark:border-white/10 bg-slate-50/70 dark:bg-[#0B1033]/50 text-xs text-slate-500 dark:text-slate-300">
                           <th className="py-3 pl-5 pr-3">Role</th>
                           <th className="py-3 px-3 text-right">Pressure Only</th>
-                          <th className="py-3 px-3 text-right">Overall Only</th>
+                          <th className="py-3 px-3 text-right">Non-Pressure Only</th>
                           <th className="py-3 px-3 text-right text-[#EA1A85]">Blend (Mine)</th>
                           <th className="py-3 pl-3 pr-5 text-right">Weights (P / All)</th>
                         </tr>
