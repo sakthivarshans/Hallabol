@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { to: '/dashboard', label: 'Overview' },
   { to: '/batters', label: 'Batters' },
   { to: '/bowlers', label: 'Bowlers' },
+  { to: '/domestic', label: 'Domestic' },
   { to: '/rr-squad', label: 'RR Squad' },
   { to: '/compare', label: 'Compare' },
   { to: '/method', label: 'How we calculated' },
