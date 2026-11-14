@@ -3,133 +3,133 @@
  "oosTable": [
   {
    "role": "Batter",
-   "pressureOnly": 0.383,
-   "overallOnly": 0.354,
-   "blend": 0.399,
-   "wPressure": 0.235,
-   "wOverall": 0.158
+   "pressureOnly": 0.289,
+   "overallOnly": 0.304,
+   "blend": 0.364,
+   "wPressure": 0.208,
+   "wOverall": 0.257
   },
   {
    "role": "Bowler",
-   "pressureOnly": 0.191,
-   "overallOnly": 0.18,
-   "blend": 0.213,
-   "wPressure": 0.142,
-   "wOverall": 0.101
+   "pressureOnly": 0.097,
+   "overallOnly": 0.147,
+   "blend": 0.17,
+   "wPressure": 0.079,
+   "wOverall": 0.136
   }
  ],
  "alphaCV": [
   {
    "target": "Batter Pressure",
    "alpha": 100,
-   "r2": -0.00039
+   "r2": -0.0008
   },
   {
    "target": "Batter Pressure",
    "alpha": 300,
-   "r2": 0.00119
+   "r2": 0.0008
   },
   {
    "target": "Batter Pressure",
    "alpha": 1000,
-   "r2": 0.00116
+   "r2": 0.00084
   },
   {
    "target": "Batter Pressure",
    "alpha": 3000,
-   "r2": 0.00064
+   "r2": 0.00044
   },
   {
    "target": "Batter Pressure",
    "alpha": 10000,
-   "r2": 0.00026
+   "r2": 0.00017
   },
   {
    "target": "Bowler Pressure",
    "alpha": 100,
-   "r2": -0.00055
+   "r2": -0.00091
   },
   {
    "target": "Bowler Pressure",
    "alpha": 300,
-   "r2": 0.00111
+   "r2": 0.00073
   },
   {
    "target": "Bowler Pressure",
    "alpha": 1000,
-   "r2": 0.00113
+   "r2": 0.0008
   },
   {
    "target": "Bowler Pressure",
    "alpha": 3000,
-   "r2": 0.00063
+   "r2": 0.00042
   },
   {
    "target": "Bowler Pressure",
    "alpha": 10000,
-   "r2": 0.00026
+   "r2": 0.00016
   }
  ],
  "calibration": [
   {
    "bin": "0–10%",
-   "predicted": 0.025,
-   "actual": 0.041,
-   "n": 21470
+   "predicted": 0.028,
+   "actual": 0.038,
+   "n": 21249
   },
   {
    "bin": "10–20%",
    "predicted": 0.149,
-   "actual": 0.167,
-   "n": 7746
+   "actual": 0.168,
+   "n": 8197
   },
   {
    "bin": "20–30%",
-   "predicted": 0.25,
-   "actual": 0.262,
-   "n": 7030
+   "predicted": 0.249,
+   "actual": 0.253,
+   "n": 6849
   },
   {
    "bin": "30–40%",
-   "predicted": 0.348,
-   "actual": 0.366,
-   "n": 7271
+   "predicted": 0.35,
+   "actual": 0.359,
+   "n": 6953
   },
   {
    "bin": "40–50%",
-   "predicted": 0.449,
-   "actual": 0.46,
-   "n": 5989
+   "predicted": 0.447,
+   "actual": 0.453,
+   "n": 6236
   },
   {
    "bin": "50–60%",
-   "predicted": 0.55,
-   "actual": 0.551,
-   "n": 5292
+   "predicted": 0.551,
+   "actual": 0.542,
+   "n": 5591
   },
   {
    "bin": "60–70%",
    "predicted": 0.652,
-   "actual": 0.652,
-   "n": 6538
+   "actual": 0.656,
+   "n": 6435
   },
   {
    "bin": "70–80%",
-   "predicted": 0.752,
-   "actual": 0.741,
-   "n": 8560
+   "predicted": 0.751,
+   "actual": 0.759,
+   "n": 7110
   },
   {
    "bin": "80–90%",
    "predicted": 0.847,
-   "actual": 0.808,
-   "n": 6886
+   "actual": 0.801,
+   "n": 8152
   },
   {
    "bin": "90–100%",
-   "predicted": 0.977,
-   "actual": 0.956,
-   "n": 16614
+   "predicted": 0.971,
+   "actual": 0.961,
+   "n": 16624
   }
  ],
  "cutoffSensitivity": [
@@ -160,23 +160,23 @@
   {
    "batMin": 200,
    "bowlMin": 170,
-   "batOverlap": 1.0,
+   "batOverlap": 0.9,
    "bowlOverlap": 1.0
   },
   {
    "batMin": 300,
    "bowlMin": 250,
-   "batOverlap": 0.9,
-   "bowlOverlap": 0.9
+   "batOverlap": 0.7,
+   "bowlOverlap": 1.0
   }
  ],
  "iplOnlyOverlap": {
-  "bat": 0.6,
-  "bowl": 0.7
+  "bat": 0.8,
+  "bowl": 0.6
  },
  "limitations": [
-  "The win-probability model is slightly overconfident in the extreme tails (in the 80–90% bin the model predicts 85% but teams won 81%).",
-  "Pressure-specific skill is only moderately repeatable (held-out correlation roughly 0.2 for bowlers and 0.4 for batters), so ranks 6–10 in each list are not statistically separable; see the rank-range and P(top 10) columns.",
+  "The win-probability model is slightly overconfident in the extreme tails (in the 80–90% bin the model predicts 85% but teams won 80%).",
+  "Pressure-specific skill is only moderately repeatable: pressure-only history correlates 0.29 (batters) and 0.10 (bowlers) with held-out pressure performance, so ranks 6–10 in each list are not statistically separable; see the rank-range and P(top 10) columns.",
   "Blend weights were estimated on the same random match splits used to evaluate them, so the held-out correlations are mildly optimistic.",
   "Ratings are runs-based. Fielding, captaincy and the non-striker's contribution are not modelled, and run-outs are charged to neither bowler nor non-striker.",
   "The 'T20' group in the data pack contains IPL plus two A-team events; IPL-only checks use IPL fixtures only. T20I opposition varies in strength and is only partly handled by the joint batter-bowler model.",
