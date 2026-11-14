@@ -4,8 +4,8 @@
  "note": "These are the best-performing Indian players under pressure. If the overall top performers are released by their franchises RR can bid for them; if they are not available, this domestic list is the fallback strategy.",
  "criteria": "Indian nationals only; at least 60 pressure balls faced (batters) or 50 bowled (bowlers) in at least 10 innings; same model, ratings and bootstrap as the main lists, with ranks and P(top 10) computed within the Indian pool.",
  "nationalityRule": "Indian = listed for India or India A in the data pack's competition_team_player_mapping. IPL players with no national-team entry in the mapping were classified from public records (see nationality_audit.json); overseas players without an entry were excluded by name.",
- "poolBatters": 61,
- "poolBowlers": 59,
+ "poolBatters": 64,
+ "poolBowlers": 66,
  "mappedIndian": 87,
- "supplementedIndian": 130
+ "supplementedIndian": 133
 }
