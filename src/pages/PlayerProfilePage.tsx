@@ -69,7 +69,7 @@ export default function PlayerProfilePage() {
   const effectBarData = player
     ? [
         { name: 'Pressure Effect', value: player.pressEffect ?? 0 },
-        { name: 'Overall Effect', value: player.overallEffect ?? 0 },
+        { name: 'Non-Pressure Effect', value: player.overallEffect ?? 0 },
       ]
     : [];
 
@@ -221,7 +221,7 @@ export default function PlayerProfilePage() {
                   value={fmtSigned(player.pressEffect, 2)}
                   animate={false}
                   tooltip={METRIC_TOOLTIPS.pressEffect}
-                  sublabel={`Overall: ${fmtSigned(player.overallEffect, 2)}`}
+                  sublabel={`Non-pressure: ${fmtSigned(player.overallEffect, 2)}`}
                 />
                 <StatTile label="Pressure Balls" value={player.pressureBalls} />
                 <StatTile label="Innings" value={player.innings} />
@@ -295,7 +295,7 @@ export default function PlayerProfilePage() {
 
               <div className="rounded-2xl border border-slate-200/80 dark:border-white/10 bg-white dark:bg-[#141A4A] p-5 print-card">
                 <h3 className="text-sm font-semibold text-[#0B1033] dark:text-white font-heading">
-                  Pressure Effect vs Overall Effect (RAE / 100 balls)
+                  Pressure Effect vs Non-Pressure Effect (RAE / 100 balls)
                 </h3>
                 <div className="mt-3 h-52 w-full">
                   <ResponsiveContainer width="100%" height="100%">
