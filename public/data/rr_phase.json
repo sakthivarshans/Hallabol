@@ -3,30 +3,30 @@
  "rows": [
   {
    "phase": "PP",
-   "rrBat": 26.93,
-   "leagueBat": 11.9,
-   "rrBowl": -22.88,
-   "leagueBowl": -11.84,
-   "rrBallsFaced": 638,
-   "rrBallsBowled": 702
+   "rrBat": 36.29,
+   "leagueBat": 16.37,
+   "rrBowl": -27.62,
+   "leagueBowl": -16.01,
+   "rrBallsFaced": 379,
+   "rrBallsBowled": 451
   },
   {
    "phase": "Mid",
-   "rrBat": 15.7,
-   "leagueBat": 5.31,
-   "rrBowl": -10.09,
-   "leagueBowl": -5.24,
-   "rrBallsFaced": 252,
-   "rrBallsBowled": 274
+   "rrBat": 10.23,
+   "leagueBat": 13.34,
+   "rrBowl": -15.18,
+   "leagueBowl": -13.09,
+   "rrBallsFaced": 393,
+   "rrBallsBowled": 447
   },
   {
    "phase": "Death",
-   "rrBat": -8.93,
-   "leagueBat": -1.13,
-   "rrBowl": -35.39,
-   "leagueBowl": 0.13,
-   "rrBallsFaced": 271,
-   "rrBallsBowled": 253
+   "rrBat": 5.27,
+   "leagueBat": 1.91,
+   "rrBowl": -27.22,
+   "leagueBowl": -2.07,
+   "rrBallsFaced": 270,
+   "rrBallsBowled": 267
   }
  ]
 }
