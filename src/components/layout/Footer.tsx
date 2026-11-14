@@ -28,6 +28,12 @@ export function Footer() {
           </Link>
         </div>
       </div>
+      <div className="mx-auto mt-5 max-w-7xl border-t border-slate-200/60 dark:border-white/10 px-4 sm:px-6 lg:px-8 pt-4 text-center">
+        <p className="font-semibold text-[#0B1033] dark:text-white">
+          Built by <span className="text-[#EA1A85]">Sakthivarshan S</span>
+        </p>
+        <p className="mt-1">LinkedIn: linkedin.com/in/sakthivarshans10</p>
+      </div>
     </footer>
   );
 }
