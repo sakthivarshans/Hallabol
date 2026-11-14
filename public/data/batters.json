@@ -35,7 +35,9 @@
   "fitTag": "Powerplay Aggressor",
   "whyRR": "Ranked #1 batter under pressure: +8.3 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 187 (average 48) over 112 innings and moves the match the right way in 56% of them. Rank range across 300 resamples: #1–#3; chance of a top-10 finish 100%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 90% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 581 pressure balls in 60 innings at a strike rate of 182 (48 average, 22 dismissals). IPL-only rank #4 of 95 eligible batters. Form: +11.9 in 2025–26 vs +3.0 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 581 pressure balls in 60 innings at a strike rate of 182 (48 average, 22 dismissals). IPL-only rank #4 of 95 eligible batters. Form: +11.9 in 2025–26 vs +3.0 in 2022–24 (per 100 pressure balls).",
+  "isIndian": true,
+  "nationalitySource": "data pack mapping (India / India A)"
  },
  {
   "status": "computed",
@@ -73,7 +75,9 @@
   "fitTag": "Powerplay Aggressor",
   "whyRR": "Ranked #2 batter under pressure: +7.7 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 228 (average 69) over 30 innings and moves the match the right way in 70% of them. Rank range across 300 resamples: #1–#7; chance of a top-10 finish 97%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 94% of his pressure workload is in that phase. He is already in RR's 2026 squad, so the decision is about retention.",
-  "domesticSummary": "IPL 2022–26: 236 pressure balls in 20 innings at a strike rate of 233 (79 average, 7 dismissals). IPL-only rank #1 of 95 eligible batters. Only 2025–26 data available for a form comparison."
+  "domesticSummary": "IPL 2022–26: 236 pressure balls in 20 innings at a strike rate of 233 (79 average, 7 dismissals). IPL-only rank #1 of 95 eligible batters. Only 2025–26 data available for a form comparison.",
+  "isIndian": true,
+  "nationalitySource": "data pack mapping (India / India A)"
  },
  {
   "status": "computed",
@@ -111,7 +115,9 @@
   "fitTag": "Death-Over Finisher",
   "whyRR": "Ranked #3 batter under pressure: +5.6 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 201 (average 33) over 51 innings and moves the match the right way in 63% of them. Rank range across 300 resamples: #1–#14; chance of a top-10 finish 90%.",
   "rrNeed": "RR's death overs batting under pressure is 7.8 runs per 100 balls worse than the league average (IPL 2025–26). 63% of his pressure workload is in that phase, so he addresses a measurable gap.",
-  "domesticSummary": "IPL 2022–26: 181 pressure balls in 33 innings at a strike rate of 212 (32 average, 12 dismissals). IPL-only rank #5 of 95 eligible batters. Form: +6.1 in 2025–26 vs +5.3 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 181 pressure balls in 33 innings at a strike rate of 212 (32 average, 12 dismissals). IPL-only rank #5 of 95 eligible batters. Form: +6.1 in 2025–26 vs +5.3 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -149,7 +155,9 @@
   "fitTag": "Powerplay Aggressor",
   "whyRR": "Ranked #4 batter under pressure: +4.8 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 168 (average 40) over 66 innings and moves the match the right way in 58% of them. Rank range across 300 resamples: #2–#22; chance of a top-10 finish 80%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 86% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 315 pressure balls in 32 innings at a strike rate of 174 (34 average, 16 dismissals). IPL-only rank #11 of 95 eligible batters. Form: +3.6 in 2025–26 vs +5.7 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 315 pressure balls in 32 innings at a strike rate of 174 (34 average, 16 dismissals). IPL-only rank #11 of 95 eligible batters. Form: +3.6 in 2025–26 vs +5.7 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -187,7 +195,9 @@
   "fitTag": "Multi-Phase Pressure Batter",
   "whyRR": "Ranked #5 batter under pressure: +4.4 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 160 (average 30) over 82 innings and moves the match the right way in 55% of them. Rank range across 300 resamples: #3–#28; chance of a top-10 finish 68%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 53% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 274 pressure balls in 40 innings at a strike rate of 155 (24 average, 18 dismissals). IPL-only rank #29 of 95 eligible batters. Form: +0.6 in 2025–26 vs +7.0 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 274 pressure balls in 40 innings at a strike rate of 155 (24 average, 18 dismissals). IPL-only rank #29 of 95 eligible batters. Form: +0.6 in 2025–26 vs +7.0 in 2022–24 (per 100 pressure balls).",
+  "isIndian": true,
+  "nationalitySource": "data pack mapping (India / India A)"
  },
  {
   "status": "computed",
@@ -225,7 +235,9 @@
   "fitTag": "Multi-Phase Pressure Batter",
   "whyRR": "Ranked #6 batter under pressure: +4.1 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 167 (average 44) over 61 innings and moves the match the right way in 52% of them. Rank range across 300 resamples: #3–#27; chance of a top-10 finish 59%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 44% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 231 pressure balls in 34 innings at a strike rate of 192 (49 average, 9 dismissals). IPL-only rank #3 of 95 eligible batters. Form: +0.2 in 2025–26 vs +6.8 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 231 pressure balls in 34 innings at a strike rate of 192 (49 average, 9 dismissals). IPL-only rank #3 of 95 eligible batters. Form: +0.2 in 2025–26 vs +6.8 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -263,7 +275,9 @@
   "fitTag": "Powerplay Aggressor",
   "whyRR": "Ranked #7 batter under pressure: +4.1 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 158 (average 51) over 84 innings and moves the match the right way in 57% of them. Rank range across 300 resamples: #3–#24; chance of a top-10 finish 58%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 80% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 536 pressure balls in 51 innings at a strike rate of 154 (59 average, 14 dismissals). IPL-only rank #18 of 95 eligible batters. Form: +5.4 in 2025–26 vs +3.2 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 536 pressure balls in 51 innings at a strike rate of 154 (59 average, 14 dismissals). IPL-only rank #18 of 95 eligible batters. Form: +5.4 in 2025–26 vs +3.2 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -301,7 +315,9 @@
   "fitTag": "Death-Over Finisher",
   "whyRR": "Ranked #8 batter under pressure: +4.0 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 200 (average 39) over 43 innings and moves the match the right way in 53% of them. Rank range across 300 resamples: #3–#35; chance of a top-10 finish 52%.",
   "rrNeed": "RR's middle overs batting under pressure is already 10.4 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 45% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 248 pressure balls in 36 innings at a strike rate of 207 (43 average, 12 dismissals). IPL-only rank #2 of 95 eligible batters. Form: +2.4 in 2025–26 vs +5.3 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 248 pressure balls in 36 innings at a strike rate of 207 (43 average, 12 dismissals). IPL-only rank #2 of 95 eligible batters. Form: +2.4 in 2025–26 vs +5.3 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -339,7 +355,9 @@
   "fitTag": "Powerplay Aggressor",
   "whyRR": "Ranked #9 batter under pressure: +3.4 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 183 (average 36) over 58 innings and moves the match the right way in 47% of them. Rank range across 300 resamples: #4–#55; chance of a top-10 finish 37%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 92% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 478 pressure balls in 36 innings at a strike rate of 187 (45 average, 20 dismissals). IPL-only rank #8 of 95 eligible batters. Form: +0.2 in 2025–26 vs +6.5 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 478 pressure balls in 36 innings at a strike rate of 187 (45 average, 20 dismissals). IPL-only rank #8 of 95 eligible batters. Form: +0.2 in 2025–26 vs +6.5 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  },
  {
   "status": "computed",
@@ -377,6 +395,8 @@
   "fitTag": "Powerplay Aggressor",
   "whyRR": "Ranked #10 batter under pressure: +3.1 runs above par per 100 pressure balls (shrunk estimate). In high-leverage moments he scores at a strike rate of 164 (average 25) over 40 innings and moves the match the right way in 52% of them. Rank range across 300 resamples: #5–#49; chance of a top-10 finish 26%.",
   "rrNeed": "RR's powerplay batting under pressure is already 15.0 runs per 100 balls better than the league average (IPL 2025–26), so he adds depth and insurance in a strength rather than fixing a gap. 92% of his pressure workload is in that phase.",
-  "domesticSummary": "IPL 2022–26: 73 pressure balls in 9 innings at a strike rate of 192 (23 average, 6 dismissals). Form: +3.8 in 2025–26 vs +2.2 in 2022–24 (per 100 pressure balls)."
+  "domesticSummary": "IPL 2022–26: 73 pressure balls in 9 innings at a strike rate of 192 (23 average, 6 dismissals). Form: +3.8 in 2025–26 vs +2.2 in 2022–24 (per 100 pressure balls).",
+  "isIndian": false,
+  "nationalitySource": "overseas / not Indian"
  }
 ]
