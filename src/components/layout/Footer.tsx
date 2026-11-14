@@ -17,6 +17,9 @@ export function Footer() {
           <Link to="/bowlers" className="hover:text-[#EA1A85] transition-colors">
             Bowlers
           </Link>
+          <Link to="/domestic" className="hover:text-[#EA1A85] transition-colors">
+            Domestic
+          </Link>
           <Link to="/rr-squad" className="hover:text-[#EA1A85] transition-colors">
             RR Squad
           </Link>
